@@ -11,7 +11,7 @@
   "author": "Perceptual Inc.",
   "license": "MIT",
   "scripts": {
-    "test": "percy exec -- testcafe chrome:headless tests"
+    "test": "percy exec -- testcafe chrome tests"
   },
   "devDependencies": {
     "@percy/cli": "^1.0.0-beta.42",
