@@ -24,7 +24,7 @@ fixture('Test TodoMVC App')
 
   test("Create todo", async t => {
     await t
-      .typeText(todoPage.input, "write blog post about JS")
+      .typeText(todoPage.input, "write blog post about JS test 1")
       .pressKey("enter");
   
     await percySnapshot(t, "Created a todo");
